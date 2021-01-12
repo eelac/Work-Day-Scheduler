@@ -24,7 +24,8 @@ textarea{
 .description{
   white-space: pre-wrap;
   background-color: lightgrey;
-  border: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
   border-radius: 10px;
 }
 
@@ -64,10 +65,10 @@ textarea{
 .saveBtn {
   border: 1px solid black;
   width: 7%;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   background-color: #06AED5;
   color: white;
 }
@@ -80,10 +81,10 @@ textarea{
 .checkBtn {
   border: 1px solid black;
   width: 7%;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   background-color: lightgreen;
   color: white;
 }
