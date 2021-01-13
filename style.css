@@ -73,7 +73,7 @@ textarea{
   color: white;
 }
 
-.saveBtn i:hover {
+.saveBtn, i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
@@ -92,4 +92,8 @@ textarea{
 .checkBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
+}
+
+.completed {
+  background-color: lightgreen;
 }
