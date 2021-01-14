@@ -97,3 +97,11 @@ textarea{
 .completed {
   background-color: lightgreen;
 }
+
+.past {
+  background-color: pink;
+}
+
+.present {
+  background-color: lightblue;
+}

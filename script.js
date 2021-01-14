@@ -2,9 +2,19 @@
 var d = new Date();
 document.getElementById("currentDay").innerHTML = d;
 
-//Chnge based on time of day
+//Change based on time of day
 var n = d.getHours();
 console.log(n);
+
+
+$(".time-block").each(function () {
+  const timeBlockId = $(this).attr("id");
+  if (n > timeBlockId) {
+    $('textarea').addClass('past');
+  } else if (n === timeBlockId) {
+    $('textarea').addClass('present');
+  }
+});
 
 //Save button
 $(".saveBtn").click(function () {
@@ -24,15 +34,4 @@ $(document).ready(function () {
   $("#15 .description").val(localStorage.getItem("15"));
   $("#16 .description").val(localStorage.getItem("16"));
   $("#17 .description").val(localStorage.getItem("17"));
-});
-
-//Check button
-$(".description").each(function () {
-  $(".checkBtn").click(function () {
-    if ($(".textarea").hasClass("completed")) {
-      $(".textarea").removeClass("completed");
-    } else {
-      $("textarea").addClass("completed");
-    }
-  });
 });
