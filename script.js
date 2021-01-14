@@ -11,6 +11,8 @@ $(".time-block").each(function () {
     $('textarea').addClass('past');
   } else if (n === timeBlockId) {
     $('textarea').addClass('present');
+  } else if (n < timeBlockId) {
+    $('textarea').addClass('future');
   }
 });
 

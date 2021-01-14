@@ -2,6 +2,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
+  color: black;
 }
 
 textarea{
@@ -76,32 +77,4 @@ textarea{
 .saveBtn, i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
-}
-
-.checkBtn {
-  border: 1px solid black;
-  width: 7%;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  background-color: lightgreen;
-  color: white;
-}
-
-.checkBtn i:hover {
-  font-size: 20px;
-  transition: all .3s ease-in-out;
-}
-
-.completed {
-  background-color: purple;
-}
-
-.past {
-  background-color: pink;
-}
-
-.present {
-  background-color: lightblue;
 }
