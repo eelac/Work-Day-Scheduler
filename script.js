@@ -4,8 +4,6 @@ document.getElementById("currentDay").innerHTML = d;
 
 //Change based on time of day
 var n = d.getHours();
-console.log(n);
-
 
 $(".time-block").each(function () {
   const timeBlockId = $(this).attr("id");
