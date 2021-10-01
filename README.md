@@ -1,4 +1,4 @@
-# Homework5-Scheduler
+# Work Day Scheduler
 
 Header shows current day and time and timezone
 Scheduler changes color based on time of day
