@@ -6,4 +6,4 @@ Save button saves information to local storage
 
 ![Screenshot](Scheduler.png)
 
-https://eelac.github.io/Homework5-Scheduler/
+https://eelac.github.io/Work-Day-Scheduler/
